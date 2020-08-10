@@ -4,7 +4,6 @@
 using namespace std;
 
 int main(){
-    cout<<"Sa Was Dee Krabbbb Cho Rom Khon Chob WHee\n";
 
     int num1,num2,square_sum=0;
     cin>>num1>>num2;
