@@ -27,7 +27,7 @@ int main(){
     cout<<"Average = "<<xbar<<endl;
 
     cout<<setprecision(3);
-    cout<<"SD = "<<sqrt((square_sum)/diff-xbar*xbar)<<endl;
+    cout<<"SD = "<<sqrt(((diff*square_sum)-(diff*xbar*diff*xbar))/(diff*(diff-1)))<<endl;
 
     return 0;
 
